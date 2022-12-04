@@ -1,15 +1,22 @@
 import Header from "./components/header";
+import Tasks from "./components/Tasks";
 
 
 function App() {
   
   return (
 <div className="App">
-    <Header title={1} />
-    {/* passing props  
-    <Header title="Task Tracker "/> title is props 
+   
+    {/* passing props   */}
+    <div className="container">
+      <Header /> 
+    <Tasks/>
+      </div>
     
-    */}
+
+    {/* title is props  */}
+    
+   
     </div>
   );
 }
