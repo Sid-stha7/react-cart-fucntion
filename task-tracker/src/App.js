@@ -6,21 +6,21 @@ function App() {
   const [tasks, setTasks] = useState([
     {
       id: 1,
-      text: "Doctors Appointment",
+      text: "Dactar sita guff",
       day: "Feb 5th at 2:30pm",
       reminder: "true",
     },
 
     {
       id: 2,
-      text: "Doctors Appointment",
+      text: "Meeting With  Board",
       day: "Feb 5th at 2:30pm",
       reminder: "true",
     },
 
     {
       id: 3,
-      text: "Doctors Appointment",
+      text: "Bhandari Sita Guff Hanney",
       day: "Feb 5th at 2:30pm",
       reminder: "false",
     },
